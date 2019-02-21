@@ -28,7 +28,8 @@ for (var i = 1; i <= 6; i++) {
    var hx = document.getElementsByTagName("h"+i); // get hx elements
    
    for (var j = 0; j < hx.length; j++) {
-      hx[i].style.color = 'white';
+      hx[i].style.color = 'white !important';
+      hx[i].style.background = 'rgb(42, 43, 46)';
    }
 }
 
